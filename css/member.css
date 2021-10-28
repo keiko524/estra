@@ -1,0 +1,82 @@
+
+
+.title{
+  /* padding-top: 160px; */
+  width: 100%;
+  height: 270px;
+  left: 0px;
+  top: 0px;
+  background: #18CDCA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title>h1{
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 78px;
+}
+
+
+.content{
+  /* background:#E9F3F3; */
+  /* background-image: url(Union3.png); */
+  /* background-repeat: no-repeat; */
+  /* height: auto; */
+  display: flex;
+  justify-content: center;
+  /* margin: 0 150px; */
+}
+
+.member_list{
+  /* position: absolute; */
+  /* top: 0; */
+  padding: 150px 150px 20px 150px;
+}
+
+/* .box{
+  width: 1048px;
+  height: 739px;
+  position: absolute;
+  background: #E9F3F3;
+}
+
+.box1{
+  left: 261px;
+}
+.box2{
+  left: 130px;
+  top: 739px;
+}
+.box3{
+  left: 262px;
+  top: 1478px;
+  height: 300px;
+} */
+
+.member{
+  margin-bottom: 50px;
+}
+
+.member>.position{
+  background-color: transparent;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.member>.member_name{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+}
