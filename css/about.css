@@ -9,3 +9,33 @@
   text-align: center;
   margin-top: 20px;
 }
+
+h2{
+  font-size: 60px;
+  text-align: center;
+  margin: 100px;
+}
+
+.about_content{
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+h3{
+  font-size: 40px;
+}
+
+p{
+   font-size: 25px;
+   margin-top: 20px;
+}
+
+.about_content>div{
+  padding: 50px;
+}
+
+.about_content:nth-child(odd){
+  flex-direction: row-reverse;
+}

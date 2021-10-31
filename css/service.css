@@ -1,0 +1,42 @@
+.service_contents{
+  width: 75%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+section img{
+  width: 100%;
+}
+
+h2{
+  font-size: 48px;
+  color: #fff;
+  background-color: #18CDCA;
+  padding: 80px;
+  display: inline-block;
+  text-align: center;
+  margin: 25px 0;
+}
+
+p{
+  font-size: 28px;
+  padding: 0 50px;
+}
+
+.content{
+  margin: 20px 0;
+}
+
+h3{
+  font-size: 38px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.stagee_content{
+  margin-top: 100px;
+}
+
+.stagee_content>div{
+  margin-bottom: 30px;
+}
