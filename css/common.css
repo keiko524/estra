@@ -1,5 +1,6 @@
 *{
   font-family: 'Zen Kurenaido', sans-serif;
+  box-sizing: border-box;
 }
 
 a{
@@ -22,7 +23,7 @@ header{
   position: fixed;
   top: 0;
   z-index: 10;
-  width: 100%;
+  width: 100vw;
   /* height: 160px; */
   background: #FFFFFF;
   display: flex;
@@ -69,7 +70,7 @@ footer{
 .footer_list{
   font-weight: bold;
   font-size: 18px;
-  width: 100%;
+  width: 100vw;
   color: #FFFFFF;
   display: flex;
   justify-content: space-around;

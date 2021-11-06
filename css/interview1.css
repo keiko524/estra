@@ -1,0 +1,26 @@
+.interview1>div{
+  display: flex;
+ justify-content: center;
+}
+
+p{
+  font-size: 28px;
+}
+
+h2{
+  font-size: 36px;
+  padding-bottom: 50px;
+}
+
+.interview1{
+  width: 75%;
+  margin:auto;
+  background-color: #fff;
+  text-align: center;
+  padding: 100px;
+  margin-top: 50px;
+}
+
+section{
+  padding-bottom: 50px;
+}

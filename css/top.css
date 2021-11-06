@@ -1,5 +1,7 @@
 h2{
   font-size: 38px;
+  text-align: center;
+  padding: 50px;
 }
 
 .tech_coach{
@@ -17,16 +19,51 @@ h2{
   padding: 0 20px;
 }
 
-.service>div>div{
+.service>div{
   display: flex;
-}
-
-.service>div>div{
-  width: 50%;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .news{
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 50px;
 }
+
+.service{
+  background-color: #fff;
+  padding-bottom: 50px;
+}
+
+/* .service_cotent{ */
+  /* background-color: #18CDCA; */
+  /* color: white;
+  margin: 10px;
+} */
+
+/* .service_cotent>p{
+  font-size: 28px;
+  padding: 2opx;
+   background-color: #18CDCA;
+} */
+
+.service_2{
+  justify-content: space-around;
+}
+
+.reqruit img{
+  width: 100vw;
+}
+
+.reqruit p{
+  font-size: 28px;
+  text-align: center;
+  padding: 50px;
+}
+
+
+
+
