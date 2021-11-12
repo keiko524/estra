@@ -24,3 +24,52 @@ h2{
 section{
   padding-bottom: 50px;
 }
+
+@media screen and (max-width : 768px){
+
+p{
+  font-size: 20px;
+  text-align: left;
+}
+
+h2{
+  font-size: 26px;
+}
+
+.interview1{
+  width: 80%;
+  text-align: center;
+  padding: 50px;
+}
+
+section{
+  padding-bottom: 50px;
+}
+}
+
+@media screen and (max-width : 480px){
+.interview1>div{
+  display: block;
+ justify-content: center;
+ align-items: center;
+}
+
+p{
+  font-size: 16px;
+  text-align: center;
+}
+
+h2{
+  font-size: 20px;
+}
+
+.interview1{
+  width: 95%;
+  text-align: center;
+  padding: 5px;
+}
+
+section{
+  padding-bottom: 20px;
+}
+}

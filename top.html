@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/reset.css">
-  <!-- <link rel="stylesheet" href="styles.css"> -->
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/top.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,13 +17,37 @@
 <body>
   <header>
     <a href="top.html"><img src="logo.png" alt="estraの企業ロゴ" class="logo"></a>
-    <ul>
-      <li><a href="about.html">About<br><span>私たちについて</span></a></li>
-      <li><a href="news.html">News<br><span>ニュース一覧</span></a></li>
-      <li><a href="service.html">Service<br><span>サービスについて</span></a></li>
-      <li><a href="recruit.html">Recruit<br><span>採用情報</span></a></li>
-      <li><a href="contact.html">Contact<br><span>お問い合わせ</span></a></li>
-    </ul>
+    <nav class="header-nav">
+      <ul>
+        <li><a href="about.html">About<br><span>私たちについて</span></a></li>
+        <li><a href="news.html">News<br><span>ニュース一覧</span></a></li>
+        <li><a href="service.html">Service<br><span>サービスについて</span></a></li>
+        <li><a href="recruit.html">Recruit<br><span>採用情報</span></a></li>
+        <li><a href="contact.html">Contact<br><span>お問い合わせ</span></a></li>
+      </ul>
+    </nav>
+
+    <div class="menu" id="menu">
+      <span class="menu-line-top"></span>
+      <span class="menu-line-middle"></span>
+      <span class="menu-line-bottom"></span>
+    </div>
+    <nav class="drawer-nav" id="drawer-nav">
+      <ul class="drawer-nav-list">
+        <li class="drawer-nav-item"><a href="about.html">私たちについて</a></li>
+        <li class="drawer-nav-item"><a href="greeting.html">代表挨拶</a></li>
+        <li class="drawer-nav-item"><a href="philosophy.html">経営理念</a></li>
+        <li class="drawer-nav-item"><a href="company.html">会社概要</a></li>
+        <li class="drawer-nav-item"><a href="member.html">メンバー</a></li>
+        <li class="drawer-nav-item"><a href="news.html">ニュース一覧</a></li>
+        <li class="drawer-nav-item"><a href="service.html">サービスについて</a></li>
+        <li class="drawer-nav-item"><a href="recruit.html">採用情報</a></li>
+        <li class="drawer-nav-item"><a href="environment.html">働く環境</a></li>
+        <li class="drawer-nav-item"><a href="interview.html">インタビュー一覧</a></li>
+        <li class="drawer-nav-item"><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+
   </header>
   <section>
     <div class="top">
@@ -50,23 +73,26 @@
 
     <div class="service">
       <!-- <div> -->
-        <h2>Service</h2>
-        <div class="service_2">
-          <!-- <div class="service_cotent">
+      <h2>Service</h2>
+      <div class="service_2">
+        <!-- <div class="service_cotent">
             <img src="coachtech_img.png" alt="フリーランス特化型プログラミングスクールcoachtech">
             <p>COACHTECH(コーチテック)はフリーランス特化型のオンラインコーチングプログラミングスクールです。<br>
               プログラミング未経験の方でも、「独自の学習ノウハウ」でフリーランスエンジニアを目指すことができます。</p>
           </div> -->
-          <a href="service.html"><img src="coachtech-img1_2.png" alt="フリーランス特化型プログラミングスクールcoachtech"></a>
-          <!-- <div class="service_cotent">
+        <a href="service.html"><img src="coachtech-img1_2.png" alt="フリーランス特化型プログラミングスクールcoachtech"></a>
+        <!-- <div class="service_cotent">
             <img src="stagee_img.png" alt="教育機関向け業務効率支援ツールstagee">
             <p>Stageee(ステージー)はコーチングに特化した業務効率化支援ツールです。<br>
               Web会議、面談予約、チャット、学習計画作成、学習状況の把握、教材管理、指導報告書作成といったコーチングにおいて必要な機能が1つにまとまった業務効率化を支えるSaaS</p>
           </div> -->
-          <a href="service.html"><img src="group_33.png" alt="教育機関向け業務効率支援ツールstagee"></a>
-        </div>
+        <a href="service.html"><img src="group_33.png" alt="教育機関向け業務効率支援ツールstagee"></a>
       </div>
+    </div>
     <!-- </div> -->
+
+
+
     <div class="reqruit">
       <div>
         <h2>Recruit</h2>
@@ -111,6 +137,8 @@
       <a class="footer_privacy" href="privacy.html">プライバシーポリシー</a>
     </div>
   </footer>
+
+  <script src="js/main.js"></script>
 
 </body>
 

@@ -9,7 +9,7 @@
   flex-direction: row-reverse;
 }
 main{
-  padding:100px;
+  padding:10px;
 }
 
 p{
@@ -21,4 +21,27 @@ p{
 
 a{
   color: black;
+}
+
+@media screen and (max-width : 768px){
+.interview_content{
+  width: 100%;
+  margin: 5px auto;
+}
+
+.interview_content:nth-child(even){
+  flex-direction: row-reverse;
+}
+main{
+  padding:10px;
+}
+
+p{
+  font-size: 20px;
+}
+
+}
+
+@media screen and (max-width : 480px){
+
 }

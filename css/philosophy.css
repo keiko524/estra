@@ -30,3 +30,39 @@ section{
   padding-bottom: 100px;
 }
 
+@media screen and (max-width : 768px){
+.philosophy_content{
+  width: 90%;
+  padding-top: 50px;
+}
+
+.philosophy_content>div:nth-child(1){
+  width: auto;
+  height: auto;
+  padding: 5px 8px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.philosophy_content>div:nth-child(2){
+  position:static;
+}
+
+h2{
+  font-size: 30px;
+}
+
+p{
+  font-size: 26px;
+}
+
+section{
+  padding-bottom: 50px;
+}
+}
+
+@media screen and (max-width : 480px){
+p{
+  font-size: 20px;
+}
+}

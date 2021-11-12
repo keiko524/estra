@@ -38,17 +38,7 @@ h2{
   padding-bottom: 50px;
 }
 
-/* .service_cotent{ */
-  /* background-color: #18CDCA; */
-  /* color: white;
-  margin: 10px;
-} */
 
-/* .service_cotent>p{
-  font-size: 28px;
-  padding: 2opx;
-   background-color: #18CDCA;
-} */
 
 .service_2{
   justify-content: space-around;
@@ -66,4 +56,50 @@ h2{
 
 
 
+@media screen and (max-width : 768px){
+  .tech_coach{
+    display: block;
+  }
 
+  .tech_coach p{
+    margin:auto;
+    text-align: left;
+    padding: 0;
+  }
+
+  .tech_coach img{
+    width: 100%;
+  }
+
+  .service_2 img{
+    width: 100%;
+  }
+
+  .service>div{
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+}
+
+@media screen and (max-width : 480px){
+ .tech_coach{
+  padding: 2px;
+ }
+
+ .tech_coach img{
+   margin-top: 50px;
+ }
+
+ .tech_coach p{
+   font-size: 20px;
+   margin:50px 0;
+ }
+
+ .reqruit p{
+   font-size: 20px;
+   text-align: left;
+ }
+
+}

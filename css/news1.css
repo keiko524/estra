@@ -1,0 +1,19 @@
+.news_content{
+  padding: 10%;
+}
+
+.news_content h2{
+  font-size: 38px;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.news_content p{
+  font-size: 28px;
+  margin: 20px 10px;
+}
+
+.news_content img{
+  width: 100%;
+}

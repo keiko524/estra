@@ -39,3 +39,59 @@ p{
 .about_content:nth-child(odd){
   flex-direction: row-reverse;
 }
+
+
+@media screen and (max-width : 768px){
+
+   .title h1{
+  font-size: 25px;
+   line-height: normal;
+  }
+
+  .title>p{
+    font-size: 20px;
+    line-height: normal;
+    margin-top: 10px;
+  }
+
+  h2{
+    font-size: 25px;
+    margin: 50px 0;
+  }
+
+  .about_content{
+    display: block;
+
+  }
+
+  .about_content img{
+    display: none;
+  }
+
+  .about_content>div{
+  padding: 10px;
+}
+
+h3{
+  font-size: 25px;
+}
+
+.about_content p{
+  font-size: 20px;
+}
+
+}
+
+@media screen and (max-width : 480px){
+  .title h1{
+  font-size: 20px;
+  line-height: normal;
+  }
+
+  .title>p{
+    font-size: 16px;
+    line-height: normal;
+    margin-top: 10px;
+    text-align: left;
+  }
+}

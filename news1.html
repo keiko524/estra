@@ -6,9 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/reset.css">
-  <!-- <link rel="stylesheet" href="styles.css"> -->
   <link rel="stylesheet" href="css/common.css">
-  <link rel="stylesheet" href="css/top.css">
+  <link rel="stylesheet" href="css/news1.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
@@ -18,20 +17,64 @@
 <body>
   <header>
     <a href="top.html"><img src="logo.png" alt="estraの企業ロゴ" class="logo"></a>
-    <ul>
-      <li><a href="about.html">About<br><span>私たちについて</span></a></li>
-      <li><a href="news.html">News<br><span>ニュース一覧</span></a></li>
-      <li><a href="service.html">Service<br><span>サービスについて</span></a></li>
-      <li><a href="recruit.html">Recruit<br><span>採用情報</span></a></li>
-      <li><a href="contact.html">Contact<br><span>お問い合わせ</span></a></li>
-    </ul>
+    <nav class="header-nav">
+      <ul>
+        <li><a href="about.html">About<br><span>私たちについて</span></a></li>
+        <li><a href="news.html">News<br><span>ニュース一覧</span></a></li>
+        <li><a href="service.html">Service<br><span>サービスについて</span></a></li>
+        <li><a href="recruit.html">Recruit<br><span>採用情報</span></a></li>
+        <li><a href="contact.html">Contact<br><span>お問い合わせ</span></a></li>
+      </ul>
+    </nav>
+  
+    <div class="menu" id="menu">
+      <span class="menu-line-top"></span>
+      <span class="menu-line-middle"></span>
+      <span class="menu-line-bottom"></span>
+    </div>
+    <nav class="drawer-nav" id="drawer-nav">
+      <ul class="drawer-nav-list">
+        <li class="drawer-nav-item"><a href="about.html">私たちについて</a></li>
+        <li class="drawer-nav-item"><a href="greeting.html">代表挨拶</a></li>
+        <li class="drawer-nav-item"><a href="philosophy.html">経営理念</a></li>
+        <li class="drawer-nav-item"><a href="company.html">会社概要</a></li>
+        <li class="drawer-nav-item"><a href="member.html">メンバー</a></li>
+        <li class="drawer-nav-item"><a href="news.html">ニュース一覧</a></li>
+        <li class="drawer-nav-item"><a href="service.html">サービスについて</a></li>
+        <li class="drawer-nav-item"><a href="recruit.html">採用情報</a></li>
+        <li class="drawer-nav-item"><a href="environment.html">働く環境</a></li>
+        <li class="drawer-nav-item"><a href="interview.html">インタビュー一覧</a></li>
+        <li class="drawer-nav-item"><a href="contact.html">お問い合わせ</a></li>
+        <li class="drawer-nav-item"><a href="privacy.html">プライバシーポリシー</a></li>
+      </ul>
+    </nav>
+  
   </header>
   <section>
-    <div class="top">
-      <img src="" alt="">
-      <h1>Commit to the growth for everyone
-        全ての人の成長にコミットする</h1>
+    <div class="title">
+      <h1>ニュース</h1>
     </div>
+
+    <div class="news_content">
+      <h2>estra 新代々木オフィス昨年12月に移転しました！</h2>
+      <div>
+        <img src="newsoffice.png" alt="新代々木オフィス">
+        <p>こんにちは！株式会社etsra人事部の山蔭です。<br>
+          今estraの募集みてどうしようかな、どんな会社なのかな？と思っている方！<br>弊社で働くイメージを持って頂くためにも、オフィスをご紹介します！<br>代々木にある弊社オフィスは昨年12月に移転したばかりでとても綺麗です！私も気に入ってるので、良かったら見てみてください！</p>
+
+        <p>【エントランス】到着した方は、こちらにて受付をお願いします！<br>
+        【受付】では、受付します！<br>
+        【会議室】ここで経営会議、部署会議などみんなで集まり会議の場として使用しています！<br>
+        【メインルーム】弊社ではフリーアドレススタイルなので、どこ座ってもOKです！<br>
+        【休憩スペース】みんなでよく息抜きがてらおしゃべりします！<br>
+        【集中ルーム】ここはオンライン面談や集中したい時にみんな使用してます！<br>
+        【会議スペース】メインルームでみんなで会議もしちゃう時もあります！</p>
+
+        <p>以上、オフィス紹介でした！estraで働くイメージはつきましたでしょうか？気になった方は是非ご連絡くださいね！</p>
+      </div>
+    </div>
+
+   
 
   </section>
   <footer>
@@ -67,7 +110,7 @@
       <a class="footer_privacy" href="privacy.html">プライバシーポリシー</a>
     </div>
   </footer>
-  
+  <script src="js/main.js"></script>
   </body>
   
   </html>

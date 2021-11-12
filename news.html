@@ -6,9 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/reset.css">
-  <!-- <link rel="stylesheet" href="styles.css"> -->
   <link rel="stylesheet" href="css/common.css">
-  <link rel="stylesheet" href="css/top.css">
+  <link rel="stylesheet" href="css/news.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
@@ -18,17 +17,83 @@
 <body>
   <header>
     <a href="top.html"><img src="logo.png" alt="estraの企業ロゴ" class="logo"></a>
-    <ul>
-      <li><a href="about.html">About<br><span>私たちについて</span></a></li>
-      <li><a href="news.html">News<br><span>ニュース一覧</span></a></li>
-      <li><a href="service.html">Service<br><span>サービスについて</span></a></li>
-      <li><a href="recruit.html">Recruit<br><span>採用情報</span></a></li>
-      <li><a href="contact.html">Contact<br><span>お問い合わせ</span></a></li>
-    </ul>
+    <nav class="header-nav">
+      <ul>
+        <li><a href="about.html">About<br><span>私たちについて</span></a></li>
+        <li><a href="news.html">News<br><span>ニュース一覧</span></a></li>
+        <li><a href="service.html">Service<br><span>サービスについて</span></a></li>
+        <li><a href="recruit.html">Recruit<br><span>採用情報</span></a></li>
+        <li><a href="contact.html">Contact<br><span>お問い合わせ</span></a></li>
+      </ul>
+    </nav>
+  
+    <div class="menu" id="menu">
+      <span class="menu-line-top"></span>
+      <span class="menu-line-middle"></span>
+      <span class="menu-line-bottom"></span>
+    </div>
+    <nav class="drawer-nav" id="drawer-nav">
+      <ul class="drawer-nav-list">
+        <li class="drawer-nav-item"><a href="about.html">私たちについて</a></li>
+        <li class="drawer-nav-item"><a href="greeting.html">代表挨拶</a></li>
+        <li class="drawer-nav-item"><a href="philosophy.html">経営理念</a></li>
+        <li class="drawer-nav-item"><a href="company.html">会社概要</a></li>
+        <li class="drawer-nav-item"><a href="member.html">メンバー</a></li>
+        <li class="drawer-nav-item"><a href="news.html">ニュース一覧</a></li>
+        <li class="drawer-nav-item"><a href="service.html">サービスについて</a></li>
+        <li class="drawer-nav-item"><a href="recruit.html">採用情報</a></li>
+        <li class="drawer-nav-item"><a href="environment.html">働く環境</a></li>
+        <li class="drawer-nav-item"><a href="interview.html">インタビュー一覧</a></li>
+        <li class="drawer-nav-item"><a href="contact.html">お問い合わせ</a></li>
+        <li class="drawer-nav-item"><a href="privacy.html">プライバシーポリシー</a></li>
+      </ul>
+    </nav>
+  
   </header>
   <section>
     <div class="title">
       <h1>ニュース</h1>
+    </div>
+
+    <div class="news_list">
+      <ul>
+        <li>
+          <div>
+            <p>corporate</p>
+            <h2>株主総会に関するお問い合わせについて</h2>
+          </div>
+        </li>
+        <li>
+          <div>
+            <p>corporate</p>
+            <h2>記入内容の確認後、2~3営業日以内にご連絡させていただきます。</h2>
+          </div>
+        </li>
+        <li>
+          <div>
+            <p>corporate</p>
+            <h2>新型コロナウイルス感染症に関する対応について</h2>
+          </div>
+        </li>
+        <li>
+          <div>
+            <p>corporate</p>
+            <h2>在宅期間勤務延長のお知らせ</h2>
+          </div>
+        </li>
+        <li>
+          <div>
+            <p>corporate</p>
+            <h2>コーポレートサイトリニューアルのお知らせ</h2>
+          </div>
+        </li>
+        <li>
+          <div>
+            <p>corporate</p>
+            <a href="news1.html"><h2>estra 新代々木オフィス昨年12月に移転しました</h2></a>
+          </div>
+        </li>
+      </ul>
     </div>
 
   </section>
@@ -65,7 +130,7 @@
     <a class="footer_privacy" href="privacy.html">プライバシーポリシー</a>
   </div>
 </footer>
-
+<script src="js/main.js"></script>
 </body>
 
 </html>

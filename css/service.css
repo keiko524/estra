@@ -40,3 +40,38 @@ h3{
 .stagee_content>div{
   margin-bottom: 30px;
 }
+
+
+@media screen and (max-width : 768px){
+  .service_contents{
+  width: 100%;
+  padding: 0;
+    padding-bottom: 30px;
+}
+
+
+.content h2{
+  font-size: 20px;
+   padding: 30px;
+   width: 100%;
+}
+.coachtech_content div{
+  margin-bottom: 20px;
+}
+
+h3{
+  font-size: 20px;
+  margin-left:10px;
+}
+  p{
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width : 480px){
+  .service_contents p{
+    font-size: 18px;
+  }
+
+
+}

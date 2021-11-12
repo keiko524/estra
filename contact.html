@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/reset.css">
-  <!-- <link rel="stylesheet" href="styles.css"> -->
   <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" href="css/top.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,13 +18,38 @@
 <body>
   <header>
     <a href="top.html"><img src="logo.png" alt="estraの企業ロゴ" class="logo"></a>
-    <ul>
-      <li><a href="about.html">About<br><span>私たちについて</span></a></li>
-      <li><a href="news.html">News<br><span>ニュース一覧</span></a></li>
-      <li><a href="service.html">Service<br><span>サービスについて</span></a></li>
-      <li><a href="recruit.html">Recruit<br><span>採用情報</span></a></li>
-      <li><a href="contact.html">Contact<br><span>お問い合わせ</span></a></li>
-    </ul>
+    <nav class="header-nav">
+      <ul>
+        <li><a href="about.html">About<br><span>私たちについて</span></a></li>
+        <li><a href="news.html">News<br><span>ニュース一覧</span></a></li>
+        <li><a href="service.html">Service<br><span>サービスについて</span></a></li>
+        <li><a href="recruit.html">Recruit<br><span>採用情報</span></a></li>
+        <li><a href="contact.html">Contact<br><span>お問い合わせ</span></a></li>
+      </ul>
+    </nav>
+  
+    <div class="menu" id="menu">
+      <span class="menu-line-top"></span>
+      <span class="menu-line-middle"></span>
+      <span class="menu-line-bottom"></span>
+    </div>
+    <nav class="drawer-nav" id="drawer-nav">
+      <ul class="drawer-nav-list">
+        <li class="drawer-nav-item"><a href="about.html">私たちについて</a></li>
+        <li class="drawer-nav-item"><a href="greeting.html">代表挨拶</a></li>
+        <li class="drawer-nav-item"><a href="philosophy.html">経営理念</a></li>
+        <li class="drawer-nav-item"><a href="company.html">会社概要</a></li>
+        <li class="drawer-nav-item"><a href="member.html">メンバー</a></li>
+        <li class="drawer-nav-item"><a href="news.html">ニュース一覧</a></li>
+        <li class="drawer-nav-item"><a href="service.html">サービスについて</a></li>
+        <li class="drawer-nav-item"><a href="recruit.html">採用情報</a></li>
+        <li class="drawer-nav-item"><a href="environment.html">働く環境</a></li>
+        <li class="drawer-nav-item"><a href="interview.html">インタビュー一覧</a></li>
+        <li class="drawer-nav-item"><a href="contact.html">お問い合わせ</a></li>
+        <li class="drawer-nav-item"><a href="privacy.html">プライバシーポリシー</a></li>
+      </ul>
+    </nav>
+  
   </header>
   <section>
     <div class="title">
@@ -32,7 +57,7 @@
       <p>Contact</p>
     </div>
 
-    <div>
+    <div class="title2">
       <h2>
         フォームからのお問い合わせ
       </h2>
@@ -40,28 +65,38 @@
         記入内容の確認後、2~3営業日以内にご連絡させていただきます。
       </p>
     </div>
-    <div>
+    <div class="contactform">
       <form action="">
         <table>
           <tr>
             <th>名前</th>
-            <td><input type="text" name="name"></td>
+            <td><input type="text" name="name" class="text"></td>
           </tr>
           <tr>
             <th>フリガナ</th>
-            <td><input type="text" name=""></td>
+            <td><input type="text" name="" class="text"></td>
           </tr>
           <tr>
             <th>メールアドレス</th>
-            <td><input type="email" name="email"></td>
+            <td><input type="email" name="email" class="text"></td>
           </tr>
           <tr>
             <th>郵便番号</th>
-            <td><input type="text" name="postcode"></td>
+            <td><input type="text" name="postcode" class="text"></td>
+          </tr>
+          <tr>
+            <th>住所</th>
+            <td><input type="text" name="address" class="text"></td>
           </tr>
           <tr>
             <th>問い合わせ内容</th>
-            <td><input type="radio"></td>
+            <td>
+            <input type="radio" name="inquiry">中途採用に関して
+            <input type="radio" name="inquiry">新卒採用に関して
+            <input type="radio" name="inquiry">その他のお問い合わせ
+           
+          </td>
+          
           </tr>
           <tr>
             <th></th>
@@ -107,6 +142,8 @@
       <a class="footer_privacy" href="privacy.html">プライバシーポリシー</a>
     </div>
   </footer>
+
+  <script src="js/main.js"></script>
   
   </body>
   

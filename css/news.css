@@ -1,0 +1,33 @@
+.news_list li{
+  border-bottom: 1px solid black;
+  list-style:none;
+  padding: 10px;
+  cursor: default;
+}
+
+.news_list{
+  padding: 10%;
+}
+
+.news_list p{
+  background-color: #fff;
+  border: 1px solid black;
+  display: inline-block;
+  padding: 2px;
+}
+
+.news_list h2{
+  font-size: 28px;
+  margin: 10px;
+}
+
+.news_list a{
+  color: black;
+  cursor: pointer;
+}
+
+@media screen and (max-width : 480px){
+  .news_list h2{
+    font-size: 18px;
+  }
+}
