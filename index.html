@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/common.css">
-  <link rel="stylesheet" href="css/top.css">
+  <!-- <link rel="stylesheet" href="css/common.css"> -->
+  <!-- <link rel="stylesheet" href="css/top.css"> -->
+  <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
@@ -62,19 +63,90 @@
       </p>
     </div>
 
-    <div class="news">
-      <div>
-        <h2>News</h2>
-        
-        <div>
-          <a href="news1.html"><img src="news1.png" alt="ニュース記事"></a>
+
+    <div class="flex">
+      <div class="container-top">
+        <div class="new-articles">
+          <h2 class="section-title top_content2">NEWS</h2>
+          <div class="flex">
+            <a href="single.html" class="magazine-colum">
+              <img src="newsoffice.png" alt="ニュース写真" />
+              <p class="category-tag">
+                カテゴリー
+              </p>
+              <div class="text-content">
+                <p class="article__date">2020/01/01</p>
+                <h3 class="article__title">
+                  estra 新代々木オフィス昨年12月に移転しました！
+                </h3>
+                <div class="article-tags">
+                  <p class="article-tags__inner">
+                    <span class="tag">タグ名</span>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
+      <!-- <aside class="sidebar">
+        <ul class="menu">
+          <li id="search-3" class="widget widget_search">
+            <h2 class="widgettitle">記事検索</h2>
+            <form method="get" class="searchform" action="">
+              <input type="text" placeholder="キーワード検索!!" name="s" class="searchfield" />
+              <input type="submit" value="" alt="検索" title="検索" class="searchsubmit" />
+            </form>
+          </li>
+          <li id="categories-3" class="widget widget_categories">
+            <h2 class="widgettitle">カテゴリー一覧</h2>
+            <ul>
+              <li class="cat-item">
+                <a href="">interview</a>
+              </li>
+              <li class="cat-item">
+                <a href="">Uncategorized</a>
+              </li>
+              <li class="cat-item">
+                <a href="">プログラミングスクール</a>
+              </li>
+              <li class="cat-item">
+                <a href="">学習</a>
+              </li>
+              <li class="cat-item">
+                <a href="">携帯電話</a>
+              </li>
+            </ul>
+          </li>
+          <li id="tag_cloud-2" class="widget widget_tag_cloud">
+            <h2 class="widgettitle">タグ一覧</h2>
+            <div class="tagcloud">
+              <a href="" class="tag-cloud-link">docomo</a>
+              <a href="" class="tag-cloud-link">wordpress</a>
+              <a href="" class="tag-cloud-link">サンプル</a>
+              <a href="" class="tag-cloud-link">プログラミング</a>
+              <a href="" class="tag-cloud-link">健康</a>
+              <a href="" class="tag-cloud-link">携帯電話</a>
+            </div>
+          </li>
+          <li id="wpp-3" class="widget popular-posts">
+            <h2 class="widgettitle">人気記事</h2>
+            <ul class="wpp-list wpp-list-with-thumbnails">
+              <li>
+                <a href="" target="_self">
+                  <img src="./img/popular.jpg" width="150" height="150" alt="" class="wpp-thumbnail wpp_featured" />
+                </a>
+                <a href="" class="wpp-post-title" target="_self">インタビュー開始</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </aside> -->
     </div>
 
     <div class="service">
       <!-- <div> -->
-      <h2>Service</h2>
+      <h2 class="top_content2">Service</h2>
       <div class="service_2">
         <!-- <div class="service_cotent">
             <img src="coachtech_img.png" alt="フリーランス特化型プログラミングスクールcoachtech">
@@ -96,7 +168,7 @@
 
     <div class="reqruit">
       <div>
-        <h2>Recruit</h2>
+        <h2 class="top_content2">Recruit</h2>
         <div>
           <a href="recruit.html"><img src="recruit_img.png" alt="リクルート"></a>
           <p>全員がリスクを恐れずにチャレンジし、社員一人一人が活躍できる環境をみんなで作り上げる</p>
